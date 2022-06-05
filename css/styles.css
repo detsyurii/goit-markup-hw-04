@@ -120,6 +120,11 @@ body {
     color: var(--second-text-color);
 }
 
+.mail-icon, .smartphone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 .header-list a:hover, 
 .header-list a:focus{
     color: var(--accent-color);
@@ -209,6 +214,22 @@ background-color: #188CE8;
     display: flex;
 }
 
+.benefits-illustration {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.benefits-icon {
+
+}
 
 .benefits-content .list-item:not(:last-child) {
     margin-right: 30px;
