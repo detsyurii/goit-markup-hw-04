@@ -15,6 +15,7 @@ p, h1, h2, h3, h4, h5, h6 {
 ul, ol {
     padding-left: 0;
     margin: 0;
+    list-style: none;
 }
 
 button {
@@ -26,9 +27,6 @@ img{
     display: block;
 }
 
-.list-item {
-    list-style: none;
-}
 
 .link {
     text-decoration: none;   
@@ -112,7 +110,10 @@ body {
     color: var(--main-text-color);
 }
 
-.header-contacts a{
+.header-contacts a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
